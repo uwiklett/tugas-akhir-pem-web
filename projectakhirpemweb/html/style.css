@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: khaki;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 40px;
+    cursor: pointer;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: 0.5s ease;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.logo img {
+    width: 350px;
+    margin-top: -150px;
+    float: left;
+    margin-left: -70px;
+}
+.article-iner a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.article-iner a:hover{
+    color: black;
+}
+.active {
+    color: rgb(0, 0, 0) !important;
+}
+.Keluar {
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: aqua;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-color: black;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.Keluar span {
+    display: block;
+    padding: 5px 20px;
+}
+.banner{
+    width: 50%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+.article {
+    width: 50%;
+    float: left;
+}
+.article h1{
+    font-size: 36px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    color: indigo;
+}
+.article p{
+    width: 750px;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: grey;
+}
+.Gambar {
+    width: 50%;
+    float: right;
+}
+.Gambar img {
+    width: 40%;
+    margin-top: -90px;
+    padding-left: 280px;
+}
+.banner-sejarah{
+    width: 90%;
+    height: 70%;
+    top: 25%;
+    left: 160px;
+    position: absolute;
+    color: white;
+}
+.article-sejarah {
+    width: 90%;
+    float: left;
+}
+.article-sejarah h2{
+    font-size: 36px;
+    position: relative;
+    margin-left: 40px;
+    color: indigo;
+}
+.article-sejarah h3{
+    font-size: 26px;
+    position: relative;
+    margin-left: 40px;
+    color: indigo;
+}
+.article-sejarah p{
+    width: 90%;
+    font-size: 20px;
+    padding: 25px;
+    margin-left: 25px;
+    line-height: 25px;
+    color: black;
+    background-color: thistle;
+}
+footer {
+    padding: 20px;
+    background-color: grey;
+    color: mediumblue;
+    margin-top: 2050px;
+    text-align: center;
+}
+.Gambar-profil{
+    width: 80%;
+    top: 20%;
+    left: 160px;
+    position: absolute;
+
+}
+.Gambar-profil h1{
+    text-align: center;
+    color: black;
+}
+.Gambar-profil img{
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+.Gambar-profil p{
+    color: white;
+    background-color: darkgrey;
+}
+.conten1 {
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.conten1 h2{
+    text-align: center;
+}
+.conten1 img{
+    margin-top: -90px;
+}
+.conten1 p{
+    margin-top: 18px;
+    margin-left: 230px;
+    text-align: justify;
+    width: 80%;
+}
+.conten2 {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.conten2 h2{
+    text-align: center;
+}
+.conten2 p{
+    width: 96%;
+    text-align: justify;
+}
+
+.menu h1{
+    text-align: center;
+    color: black;
+    margin-top: -140px;
+}
+h2{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.container {
+    margin-top: 30px;
+}
+.col-sm-3 img{
+    width: 250px;
+    height: 270px;
+}
+.col-sm-3 p{
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+}
+.col-sm-4 img{
+    width: 250px;
+    height: 270px;
+    margin-left: 50px;
+}
+.col-sm-4 p{
+    margin-top: 10px;
+    text-align: justify;
+    color: grey;
+}
+.col-sm-6 img{
+    width: 250px;
+    height: 270px;
+    margin-left: 150px;
+}
+.col-sm-6 p{
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+}
+.col-sm-6 video{
+    margin-left: 50px;
+}
+.col-sm-12 video{
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+.konten-lagu td {
+    color: rgb(2, 2, 2);
+    font-size: 17px;
+    text-align: center;
+}
+.konten-lagu td audio{
+    width: 80%;
+}
+table{
+    margin-left: 250px;
+}
