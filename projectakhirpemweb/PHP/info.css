@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.menu td {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+li {
+    margin-top: 10px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 25px;
+}
